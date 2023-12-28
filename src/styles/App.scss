@@ -1,0 +1,92 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+
+  // @media all and (min-width: 768px) {
+  //   margin: 10px;
+  //   padding: 0px;
+  // }
+}
+body {
+  background-image: url(/src/images/plantas2.avif);
+  background-size: auto;
+  .header {
+    .mybrand {
+      background-color: rgba(255, 255, 255, 0.5);
+      width: fit-content;
+      padding: 3px;
+    }
+    .myName {
+      color: white;
+      text-align: center;
+      margin: 2rem;
+      background-color: black;
+    }
+  }
+  .main {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+    .introSection {
+      border: 2px solid black;
+      width: fit-content;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.5);
+      
+    }
+
+    .projectsSection {
+      background-color: rgba(255, 255, 255, 0.3);
+      //   margin: 8rem;
+      width: 70vw;
+      margin-block: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 4rem;
+      padding: 2rem;
+      //   border: 2px solid black;
+
+      .oneProject {
+        width: 450px;
+        display: flex;
+        padding: 20px;
+        background-color: rgba(213, 216, 223, 0.6);
+        // @media all and (max-width: 768px) {
+        //     flex-direction: column;
+
+        // }
+        .projectImg{
+            @media all and (max-width: 768px) {
+                img{
+                    width: 100px;
+                }
+                 
+            }
+        }
+        .projectText {
+          margin: 10px;
+          @media all and (max-width: 768px) {
+            h4{
+                font-size: 12px;
+            }
+            p{
+                font-size: 10px;
+            }
+             
+        }
+        }
+      }
+    }
+  }
+
+  .footer {
+    background-color: black;
+    .mybrand {
+      color: white;
+      text-align: end;
+      padding: 10px;
+      gap: 10px;
+    }
+  }
+}
