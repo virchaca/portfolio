@@ -185,8 +185,10 @@ function App() {
           </div> */}
         </section>
 
-        <section>
-          <p>algo mas, cosas interesantes, blablabla..... clores que resaltan, algun GIF, cosillas...</p>
+        <section className="moreText">
+          <p>algo mas, cosas interesantes, blablabla..... clores que resaltan, algun GIF, cosillas...:
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente corporis, dicta facere saepe magni maiores, consectetur laborum explicabo fuga, nemo omnis officiis ex ducimus adipisci delectus. Doloremque, quam suscipit.
+          </p>
 
         </section>
 
