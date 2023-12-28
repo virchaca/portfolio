@@ -44,8 +44,11 @@ body {
       flex-wrap: wrap;
       justify-content: center;
       gap: 4rem;
-      padding: 2rem;
-      //   border: 2px solid black;
+      padding-inline: 1rem;
+      padding-block: 3rem;
+      @media all and (max-width: 768px) {
+        padding: 2rem;         
+    }
 
       .oneProject {
         width: 450px;
