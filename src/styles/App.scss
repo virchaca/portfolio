@@ -21,17 +21,104 @@ body {
       text-align: center;
       margin: 2rem;
       background-color: black;
+      // font-family: tektur;
+    }
+    .sectionsMenu {
+      background-color: black;
+      text-align: center;
+      font-family: lemon;
+      .no-underline {
+        color: white;
+        text-decoration: none;
+      }
     }
   }
   .main {
-        display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .landing {
+      display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 4rem;
+      .profileSection {
+        display: flex;
+        align-items: flex-end;
+        color: white;
+        margin: 2rem;
+        gap: 4rem;
+        // font-family: bungee spice;
+        font-family: lemon;
+        @media all and (max-width: 768px) {
+          font-size: 12px;
+          flex-direction: column;
+          text-align: center;
+          // background-color: black;
+        }
+        .profileText {
+          padding: 10px;
+          background-color: rgba(100, 22, 86, 0.5);
+        }
+      }
+      .landingSection {
+        border: 2px solid black;
+        width: fit-content;
+        margin: 5rem auto;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 80%;
+        font-family: tektur;
+
+        @media all and (max-width: 768px) {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .aboutme {
+      border: 2px solid black;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 80%;
+      font-family: tektur;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+
+      @media all and (max-width: 768px) {
+        font-size: 12px;
+      }
+      .firstText{
+        border: 1px solid black;
+        background-color: rgb(15, 139, 122);
+        // background-color: rgb(15, 139, 139);
+        color: black;
+        padding: 10px;
+        margin-block: 2rem;
+        margin-inline: 2rem;
+      }
+      .secondText{
+        border: 1px solid black;
+        // background-color: rgb(25, 196, 196);
+        background-color: rgb(15, 139, 122);
+        color: black;
+        padding: 10px;
+        margin-block: 2rem;
+        margin-inline: 2rem;
+      }
+    }
+
     .introSection {
       border: 2px solid black;
       width: fit-content;
       padding: 10px;
+      margin: 20px auto;
       background-color: rgba(255, 255, 255, 0.5);
+      font-family: lemon;
       @media all and (max-width: 768px) {
         font-size: 12px;
       }
@@ -41,7 +128,7 @@ body {
       background-color: rgba(255, 255, 255, 0.3);
       //   margin: 8rem;
       width: 80vw;
-      margin-block: 4rem;
+      margin-block: 2rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -49,56 +136,76 @@ body {
       padding-inline: 1rem;
       padding-block: 3rem;
       @media all and (max-width: 768px) {
-        padding: 2rem;    
-        width: 70vw;     
-    }
+        padding: 2rem;
+        width: 70vw;
+      }
 
       .oneProject {
-        width: 430px;
+        // width: 430px;
         display: flex;
+        flex-direction: column;
+        font-size: 12px;
         padding: 20px;
         background-color: rgba(213, 216, 223, 0.6);
+        font-family: tektur;
         // @media all and (max-width: 768px) {
         //     flex-direction: column;
 
         // }
-        .projectImg{
-          img{
+        .projectImg {
+          img {
             border: 2px solid black;
             @media all and (max-width: 768px) {
-               width: 100px;              
-          }
-          
-           
-                 
+              width: 100px;
             }
+          }
         }
         .projectText {
           margin: 10px;
           @media all and (max-width: 768px) {
-            h4{
-                font-size: 12px;
+            h4 {
+              font-size: 12px;
             }
-            p{
-                font-size: 10px;
+            p {
+              font-size: 10px;
             }
-             
-        }
+          }
         }
       }
     }
-    .moreText{
-      // background-color: #b6790f;
-      background-color: #641656;
-      // background-color: #5a174e;
-      border: 1px solid rgb(192, 47, 71);
-      padding: 20px;
-      margin: 40px;
-      border-radius: 15px;
-      width: 40vw;
+    
+    
+   
+    .contact {
+      border: 2px solid black;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 80%;
+
       @media all and (max-width: 768px) {
-        width: 70vw;
-        font-size: 10px;
+        font-size: 12px;
+      }
+      .contactLinks {
+        font-family: lemon;
+        color: white;
+        background-color: white;
+        display: flex;
+        margin: 3rem;
+        gap: 4rem;
+        justify-content: space-around;
+        border: 1px solid black;
+        @media all and (max-width: 768px) {
+          flex-direction: column;
+          align-items: center;
+          padding: 2rem;
+        }
+        .contactDetails {
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
       }
     }
   }
@@ -106,12 +213,26 @@ body {
   .footer {
     background-color: black;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
     .mybrand {
       color: white;
-      text-align: end;
-      padding: 10px;
-      gap: 10px;
+      text-align: end;     
+      margin-inline: 20px;
+      display: flex;
+      justify-content: space-between;
+      
+      .icons{
+        display: flex;
+        gap: 1rem;
+        color: white;
+        a{
+          text-decoration: none;
+        }
+        
+      }
       
     }
   }
