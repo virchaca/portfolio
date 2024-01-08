@@ -3,6 +3,7 @@
 function Contact() {
   return (
     <>
+    
       <div className="contact">
         <section className="contactLinks">
           <p className="contactDetails">
@@ -27,7 +28,7 @@ function Contact() {
           </p>
           <p className="contactDetails">
             <a href="tel:+34680749185">
-              <i className="fas fa-mobile-alt"></i> phone
+              <i className="fas fa-mobile-alt"></i> PHONE
             </a>
           </p>
         </section>

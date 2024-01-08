@@ -8,7 +8,7 @@ function Landing() {
         <span className="profileText">
         <p> HI WORLD!😎 </p>
         <p> 👣 👣 </p>
-        <p>I am Virginia Alvarez Perez</p> 
+        <p>I am Virginia </p> 
         <p className="junior">  ◀︎〈 Junior Front-end Developer / 〉 ▶︎ </p>
         <p>～ Welcome to my portfolio!! ～</p>
         </span>
@@ -19,7 +19,7 @@ function Landing() {
        <div className="landingSection">
        From Biologist 🍃 to Junior Full Stack developer!!! I am looking to develop my new programming skills through a job where I can find a place 🗺️ to grow and fly 🚀 in the world of technology.
 
-       Starting with React and JavaScript, I decided to change my path and embark on web development, navigating the back end and creating life with Express & MySQL.
+       Starting with React and JavaScript, I decided to change my path and embark on web development, navigating the backend 🪼 and creating life with Express & MySQL.
 
        See all my proyects below and my contact details for more information.
 

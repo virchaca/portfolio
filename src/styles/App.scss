@@ -11,15 +11,16 @@ body {
   background-image: url(/src/images/plantas2.avif);
   background-size: auto;
   .header {
-    .mybrand {
-      background-color: rgba(255, 255, 255, 0.5);
-      width: fit-content;
-      padding: 3px;
-    }
+    // .mybrand {
+    //   background-color: rgba(255, 255, 255, 0.5);
+    //   width: fit-content;
+    //   padding: 3px;
+    // }
     .myName {
       color: white;
       text-align: center;
       margin: 2rem;
+      padding-block: 2rem ;
       background-color: black;
       // font-family: tektur;
     }
@@ -27,9 +28,16 @@ body {
       background-color: black;
       text-align: center;
       font-family: lemon;
+      margin-inline: 2rem;
+      padding: 1rem;
+      width: fit-content;
+      border-bottom: 1px solid red;
       .no-underline {
         color: white;
         text-decoration: none;
+      }
+      @media all and (max-width: 768px) {
+        font-size: 12px;       
       }
     }
   }
@@ -65,7 +73,7 @@ body {
       .landingSection {
         border: 2px solid black;
         width: fit-content;
-        margin: 5rem auto;
+        margin: 2rem auto;
         padding: 10px;
         background-color: rgba(255, 255, 255, 0.7);
         width: 80%;
@@ -76,10 +84,11 @@ body {
         }
       }
     }
-
-    .aboutme {
+    .aboutmeBox{
+      margin-block: 4rem;
+      .aboutme {
       border: 2px solid black;
-      margin: 20px auto;
+      margin: auto;
       padding: 10px;
       background-color: rgba(255, 255, 255, 0.7);
       width: 80%;
@@ -108,11 +117,23 @@ body {
         color: black;
         padding: 10px;
         margin-block: 2rem;
-        margin-inline: 2rem;
+        margin-inline: 2rem;        
+      }
+      .thirdText{
+        border: 1px solid black;
+        // background-color: rgb(25, 196, 196);
+        background-color: rgb(15, 139, 122);
+        color: black;
+        padding: 10px;
+        margin-block: 2rem;
+        margin-inline: 2rem;        
       }
     }
-
-    .introSection {
+    }
+    
+.projectsBox{
+  margin-block: 2rem;
+  .introSection {
       border: 2px solid black;
       width: fit-content;
       padding: 10px;
@@ -125,14 +146,13 @@ body {
     }
 
     .projectsSection {
-      background-color: rgba(255, 255, 255, 0.3);
-      //   margin: 8rem;
+      background-color: rgba(255, 255, 255, 0.3);      
       width: 80vw;
       margin-block: 2rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 4rem;
+      gap: 1rem;
       padding-inline: 1rem;
       padding-block: 3rem;
       @media all and (max-width: 768px) {
@@ -148,10 +168,10 @@ body {
         padding: 20px;
         background-color: rgba(213, 216, 223, 0.6);
         font-family: tektur;
-        // @media all and (max-width: 768px) {
-        //     flex-direction: column;
+        @media all and (max-width: 768px) {
+            flex-direction: row;
 
-        // }
+        }
         .projectImg {
           img {
             border: 2px solid black;
@@ -173,6 +193,8 @@ body {
         }
       }
     }
+}
+    
     
     
    

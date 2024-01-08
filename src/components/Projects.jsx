@@ -12,7 +12,7 @@ import buscadorSeries1 from "../images/fotos proyectos/buscadorSeries.png";
 function Projects() {
   return (
     <>
-       
+       <section className="projectsBox">
     <div>
         
         <section className="introSection">
@@ -33,7 +33,7 @@ function Projects() {
             </section>
             <section className="projectText">
             <h4>BOSQUES ENTRE PUEBLOS</h4>
-              <p>botanical inventory in process</p>
+              <p>Botanical inventory in process</p>
               <p>REACT- JavaScript - SCSS - HTML</p>
             </section>
           </div>
@@ -52,7 +52,7 @@ function Projects() {
               <p >
               Make your own project cards
               </p>
-              <p>EXPRESS JS, MySQL, FreeDB, REACT, EJS</p>
+              <p>EXPRESS - MySQL - FreeDB - REACT - EJS</p>
             </section>
           </div>
 
@@ -69,8 +69,8 @@ function Projects() {
             </section>
             <section className="projectText">
             <h4>OWEN WILSON SCENES</h4>
-              <p >filter and show details of scenes</p>
-              <p>REACT (Components.jsx and Props)</p>
+              <p >Filter and show details of scenes</p>
+              <p>REACT - SCSS - JavaScript</p>
             </section>            
           </div>
 
@@ -87,7 +87,7 @@ function Projects() {
             <section className="projectText">
             <h4>PIEDRA PAPEL TIJERA</h4>
               <p >Play against computer!</p>
-              <p>JAVASCRIPT, HTML, CSS.</p>
+              <p>JAVASCRIPT - HTML - CSS</p>
             </section>
           </div>
 
@@ -105,7 +105,7 @@ function Projects() {
           <h4>ADDAMS PROFILE CARDS</h4>
               <p >
                 Make your own profile card</p>
-                <p>JAVASCRIPT, HTML. SCSS y LocalStorage.</p>
+                <p>JS - HTML - SCSS - LocalStorage</p>
             </section>
           </div>
 
@@ -124,7 +124,7 @@ function Projects() {
               <p>
                 Find the mistery word!
               </p>
-              <p>React, JavaScript, SCSS, HTML</p>
+              <p>React - JavaScript - SCSS - HTML</p>
             </section>
           </div>
 
@@ -143,7 +143,7 @@ function Projects() {
               <p >
                 Find shows and  add them to your favs
               </p>
-              <p>JavaScript, SCSS, HTML</p>
+              <p>JavaScript - SCSS - HTML</p>
             </section>
           </div>
 
@@ -164,6 +164,7 @@ function Projects() {
             </section>
           </div> */}
         </section></div>
+        </section>
         </>
   )
 }

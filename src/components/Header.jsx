@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <div className="">
-        <p className="mybrand">
+        {/* <p className="mybrand">
           <a
             href="https://www.linkedin.com/in/virginia-alvarezperez/"
             target="blank"
@@ -17,9 +17,9 @@ function Header() {
             <i className="icons fa-brands fa-github-alt"></i>
           </a>{" "}
           @VirWebCreations
-        </p>
+        </p> */}
         <h1 className="myName">
-          Virginia's Portfolio <i className="fa-solid fa-earth-americas"></i>
+          Virginia's Web <i className="fa-solid fa-earth-americas"></i>
         </h1>
       </div>
       {/* <Link to="/" className="backToMain">
