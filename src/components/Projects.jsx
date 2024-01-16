@@ -7,6 +7,7 @@ import addams1 from "../images/fotos proyectos/addams.png";
 import piedra1 from "../images/fotos proyectos/piedra.png";
 import hangman1 from "../images/fotos proyectos/hangman.png";
 import buscadorSeries1 from "../images/fotos proyectos/buscadorSeries.png";
+
 // import { Link } from "react-router-dom";
 
 function Projects() {
@@ -36,7 +37,7 @@ function Projects() {
             <h4>BOSQUES ENTRE PUEBLOS</h4>
               <p>Botanical inventory in process</p>
               <p>REACT- JavaScript - SCSS - HTML</p>
-              <p><a className="codeLink" href="https://github.com/virchaca/bosques-entre-pueblos" target="blank" alt="bosquesentrepueblos"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/bosques-entre-pueblos" target="blank" alt="bosquesentrepueblos"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div>
 
@@ -55,7 +56,7 @@ function Projects() {
               Make your own project cards
               </p>
               <p>EXPRESS - MySQL - FreeDB - REACT - EJS</p>
-              <p><a className="codeLink" href="https://github.com/virchaca/project-promo-u-module-4-team-5" target="blank" alt="rocketproject"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/project-promo-u-module-4-team-5" target="blank" alt="rocketproject"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div>
 
@@ -74,7 +75,7 @@ function Projects() {
             <h4>OWEN WILSON SCENES</h4>
               <p >Filter and show details of scenes</p>
               <p>REACT - SCSS - JavaScript</p>
-              <p><a className="codeLink" href="https://github.com/virchaca/OwenWilsons-WoWs-MIII-virchaca" target="blank" alt="owenwilson"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/OwenWilsons-WoWs-MIII-virchaca" target="blank" alt="owenwilson"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>            
           </div>
 
@@ -94,7 +95,7 @@ function Projects() {
                 Find the mistery word!
               </p>
               <p>React - JavaScript - SCSS - HTML</p>
-              <p><a className="codeLink" href="https://github.com/virchaca/hangman-game-project" target="blank" alt="hangmangame"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/hangman-game-project" target="blank" alt="hangmangame"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div>
 
@@ -114,7 +115,7 @@ function Projects() {
               <p >
                 Make your own profile card</p>
                 <p>JS - HTML - SCSS - LocalStorage</p>
-                <p><a className="codeLink" href="https://github.com/virchaca/Addams-Family-profile-cards-MII-" target="blank" alt="addamsfamily"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+                <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/Addams-Family-profile-cards-MII-" target="blank" alt="addamsfamily"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div>
 
@@ -135,8 +136,8 @@ function Projects() {
               <p >
                 Find shows and  add them to your favs
               </p>
-              <p>JavaScript - SCSS - HTML</p>
-              <p><a className="codeLink" href="https://github.com/virchaca/buscador-de-series-MII" target="blank" alt="buscadorseries"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+              <p>JavaScript - CSS - HTML</p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/buscador-de-series-MII" target="blank" alt="buscadorseries"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div>
 
@@ -154,7 +155,7 @@ function Projects() {
             <h4>PIEDRA PAPEL TIJERA</h4>
               <p >Play against computer!</p>
               <p>JAVASCRIPT - HTML - CSS</p>
-              <p><a className="codeLink" href="https://github.com/virchaca/piedra-papel-o-tijera---virchaca" target="blank" alt="piedrapapeltijera"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/piedra-papel-o-tijera---virchaca" target="blank" alt="piedrapapeltijera"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div>
 

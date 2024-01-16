@@ -19,29 +19,32 @@ function Header() {
           @VirWebCreations
         </p> */}
         <h1 className="myName">
-          Virginia's Space <i className="fa-solid fa-earth-americas"></i>
+        ～ Welcome to my portfolio ～ <i className="fa-solid fa-earth-americas"></i>
         </h1>
       </div>
       {/* <Link to="/" className="backToMain">
         <i className="fa-solid fa-left-long"></i> pagina principal
       </Link> */}
       <div className="sectionsMenu">
-        <span className="">
-          {" "}
+        <span className="linksClass">
           <Link to="/" className="no-underline">
-            HI THERE |
-          </Link>
-          <Link to="/aboutme" className="no-underline">
-            | ABOUT ME |
+            HI THERE
           </Link>
         </span>
-        <span className="">
-          {" "}
-          <Link to="/projects" className="no-underline">
-            | MY PROJECTS |
+        <span className="linksClass">
+          <Link to="/aboutme" className="no-underline">
+            ABOUT ME
           </Link>
+        </span>
+        <span className="linksClass">
+          <Link to="/projects" className="no-underline">
+            MYPROJECTS
+          </Link>
+        </span>
+
+        <span className="linksClass">
           <Link to="/contactme" className="no-underline">
-            | CONTACT ME
+            CONTACT ME
           </Link>
         </span>
       </div>

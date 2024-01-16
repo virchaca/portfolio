@@ -28,8 +28,8 @@ function Contact() {
             </a>{" "}
           </p>
           <p className="contactDetails">
-            <a href="tel:+34680749185">
-              <i className="fas fa-mobile-alt"></i> +34680749185
+            <a href="tel:+34680749185" title="+34680749185">
+              <i className="fas fa-mobile-alt"></i> PHONE NUMBER
             </a>
           </p>
           <p className="contactDetails">CV

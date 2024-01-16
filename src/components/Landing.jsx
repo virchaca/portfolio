@@ -9,8 +9,8 @@ function Landing() {
         <p> HI WORLD!😎 </p>
         <p> 👣 👣 </p>
         <p>I am Virginia </p> 
-        <p className="junior">  ◀︎〈 Junior Front-end Developer / 〉 ▶︎ </p>
-        <p>～ Welcome to my portfolio!! ～</p>
+        <p className="junior">  〈 Junior Front-end Developer / 〉 </p>
+        {/* <p>～ Welcome to my portfolio!! ～</p> */}
         </span>
         <span><img src={roundProfile} alt="profilePicture" /></span>
         
