@@ -78,43 +78,6 @@ function Projects() {
             </section>            
           </div>
 
-          <div className="oneProject">          
-          <section className="projectImg">
-          
-            <a
-              href="https://virchaca.github.io/piedra-papel-o-tijera---virchaca/"
-              target="blank"
-            >
-              <img src={piedra1} alt="" />
-            </a>
-            </section>
-            <section className="projectText">
-            <h4>PIEDRA PAPEL TIJERA</h4>
-              <p >Play against computer!</p>
-              <p>JAVASCRIPT - HTML - CSS</p>
-              <p><a className="codeLink" href="https://github.com/virchaca/piedra-papel-o-tijera---virchaca" target="blank" alt="piedrapapeltijera"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
-            </section>
-          </div>
-
-          <div className="oneProject">
-          <section className="projectImg">
-            
-            <a
-              href="https://virchaca.github.io/Addams-Family-profile-cards-MII-/"
-              target="blank"
-            >
-              <img src={addams1} alt="" />
-            </a>
-          </section>
-          <section className="projectText">
-          <h4>ADDAMS PROFILE CARDS</h4>
-              <p >
-                Make your own profile card</p>
-                <p>JS - HTML - SCSS - LocalStorage</p>
-                <p><a className="codeLink" href="https://github.com/virchaca/Addams-Family-profile-cards-MII-" target="blank" alt="addamsfamily"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
-            </section>
-          </div>
-
           <div className="oneProject">
           <section className="projectImg">
             
@@ -135,6 +98,28 @@ function Projects() {
             </section>
           </div>
 
+        
+          <div className="oneProject">
+          <section className="projectImg">
+            
+            <a
+              href="https://virchaca.github.io/Addams-Family-profile-cards-MII-/"
+              target="blank"
+            >
+              <img src={addams1} alt="" />
+            </a>
+          </section>
+          <section className="projectText">
+          <h4>ADDAMS PROFILE CARDS</h4>
+              <p >
+                Make your own profile card</p>
+                <p>JS - HTML - SCSS - LocalStorage</p>
+                <p><a className="codeLink" href="https://github.com/virchaca/Addams-Family-profile-cards-MII-" target="blank" alt="addamsfamily"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+            </section>
+          </div>
+
+         
+
           <div className="oneProject">
           <section className="projectImg">
             
@@ -154,6 +139,25 @@ function Projects() {
               <p><a className="codeLink" href="https://github.com/virchaca/buscador-de-series-MII" target="blank" alt="buscadorseries"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div>
+
+          <div className="oneProject">          
+          <section className="projectImg">
+          
+            <a
+              href="https://virchaca.github.io/piedra-papel-o-tijera---virchaca/"
+              target="blank"
+            >
+              <img src={piedra1} alt="" />
+            </a>
+            </section>
+            <section className="projectText">
+            <h4>PIEDRA PAPEL TIJERA</h4>
+              <p >Play against computer!</p>
+              <p>JAVASCRIPT - HTML - CSS</p>
+              <p><a className="codeLink" href="https://github.com/virchaca/piedra-papel-o-tijera---virchaca" target="blank" alt="piedrapapeltijera"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+            </section>
+          </div>
+
 
           {/* <div className="oneProject">
           <section className="projectImg">

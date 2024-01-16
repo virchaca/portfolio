@@ -22,7 +22,7 @@ body {
       margin: 2rem;
       padding-block: 2rem ;
       background-color: black;
-      // font-family: tektur;
+      font-family: tektur;
     }
     .sectionsMenu {
       background-color: black;
@@ -45,12 +45,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    // background-color: black;
 
     .landing {
       display: flex;
       flex-direction: column;
       align-items: center;
+      // padding-top: 4rem;     
       margin-top: 4rem;
+      // background-image: url(/src/images/plantas2.avif);
+      // background-size: auto;
       .profileSection {
         display: flex;
         align-items: flex-end;
@@ -86,6 +90,7 @@ body {
     }
     .aboutmeBox{
       margin-block: 4rem;
+      
       .aboutme {
       border: 2px solid black;
       margin: auto;
@@ -140,6 +145,10 @@ body {
           flex-wrap: wrap;
           justify-content: center;
           gap: 20px;
+          padding-inline: 4rem;
+          @media all and (max-width: 768px) {
+            padding-inline: 1rem;
+          }
         }     
       }
     }
@@ -147,13 +156,15 @@ body {
     
 .projectsBox{
   margin-block: 2rem;
+  
   .introSection {
       border: 2px solid black;
       width: fit-content;
       padding: 10px;
       margin: 20px auto;
       background-color: rgba(255, 255, 255, 0.5);
-      font-family: lemon;
+      font-family: tektur;
+      font-weight: bold;
       @media all and (max-width: 768px) {
         font-size: 12px;
       }
@@ -196,9 +207,12 @@ body {
         }
         .projectText {
           margin: 10px;
+          
           .codeLink{
-            color: black;
+            background-color: black;
+            color: white;
             text-decoration: none;
+            padding: 2px;
           }
           @media all and (max-width: 768px) {
             h4 {
@@ -212,7 +226,6 @@ body {
       }
     }
 }
-    
     
     
    
