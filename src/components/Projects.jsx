@@ -6,7 +6,7 @@ import owen1 from "../images/fotos proyectos/owen.png";
 import addams1 from "../images/fotos proyectos/addams.png";
 import piedra1 from "../images/fotos proyectos/piedra.png";
 import hangman1 from "../images/fotos proyectos/hangman.png";
-import buscadorSeries1 from "../images/fotos proyectos/buscadorSeries.png";
+import buscadorSeries1 from "../images/fotos proyectos/buscadorSeries2.png";
 
 // import { Link } from "react-router-dom";
 

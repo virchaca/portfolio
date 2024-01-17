@@ -19,7 +19,7 @@ function Header() {
           @VirWebCreations
         </p> */}
         <h1 className="myName">
-        ～ Welcome to my portfolio ～ <i className="fa-solid fa-earth-americas"></i>
+         Welcome to my portfolio  <i className="fa-solid fa-earth-americas"></i> 
         </h1>
       </div>
       {/* <Link to="/" className="backToMain">
