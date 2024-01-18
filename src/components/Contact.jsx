@@ -38,7 +38,9 @@ function Contact() {
         </section>
         <section className="formSection">
      
-        <form action="https://formsubmit.co/e304ce9ec8898c2d635b585601a5787f" method="POST" className="form" > 
+        <form action="https://formspree.io/f/mleqdvqz" method="POST" className="form" > 
+        {/* <form action="https://formsubmit.co/virginia.alvarez82@gmail.com" method="POST" className="form" >  */}
+        
           {/* <label htmlFor="name" >Nombre</label> */}
           <input className="input" type="text" name="name" placeholder="Nombre"/>
 
@@ -50,8 +52,8 @@ function Contact() {
 
           <input className="btnSubmit" type="submit" value={"enviar"} />
 
-          <input type="hidden" name="_next" value="http://localhost:5173/portfolio/#/contactme" />
-          <input type="hidden" name="_captcha" value="false" />
+          {/* <input type="hidden" name="_next" value="http://localhost:5173/portfolio/#/contactme" /> */}
+          {/* <input type="hidden" name="_captcha" value="false" /> */}
         </form>
       </section>
       </div>
