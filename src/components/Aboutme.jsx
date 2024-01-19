@@ -41,9 +41,10 @@ function Aboutme() {
                 My CV
                 <a
                   className="cv"
-                  href="https://drive.google.com/file/d/12rWc0XYr2uju0RFXxrDek3ooU6a3uTJt/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
+                  download="Virginia_AlvarezP_cv.pdf"
                 >
                   {" "}
                   <img src={pdfImg} width="20px" alt="cv" />

@@ -1,6 +1,6 @@
 // import React from 'react'
 import "../styles/App.scss";
-import bosque1 from "../images/fotos proyectos/bosques.png";
+import bosque1 from "../images/fotos proyectos/bosques1.png";
 import rocket1 from "../images/fotos proyectos/rocket1.png";
 import owen1 from "../images/fotos proyectos/owen.png";
 import addams1 from "../images/fotos proyectos/addams.png";
