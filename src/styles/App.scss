@@ -324,6 +324,12 @@ body {
           padding: 5px;
           font-size: 10px;
           background-color: rgba(255, 255, 255, 0.7);
+          &:hover {     
+            background-color: rgb(151, 151, 151);  
+            &::placeholder {
+              color: white; 
+            }           
+          }
           @media all and (min-width: 768px) {    
             font-size: 14px;
           }
@@ -339,7 +345,12 @@ body {
           font-size: 10px;
           background-color: rgba(255, 255, 255, 0.7);
           border: 1px solid black;
-          
+          &:hover {     
+            background-color: rgb(151, 151, 151);  
+            &::placeholder {
+              color: white; 
+            }         
+          }
           @media all and (min-width: 768px) {    
             font-size: 16px;
           }
@@ -354,7 +365,9 @@ body {
         border-radius: 15px;
         padding: 5px;
         font-size: 10px;
-        
+        &:hover {     
+          background-color: rgb(36, 35, 35);           
+        }
         @media all and (min-width: 768px) {    
           font-size: 14px;       
         

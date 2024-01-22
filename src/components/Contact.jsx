@@ -8,7 +8,7 @@ function Contact() {
         <section className="contactLinks">
           <p className="contactDetails">
             {" "}
-            <a href="mailto:virginia.alvarez82@gmail.com? &body=Muy buenos días Vir,">virginia.alvarez82@gmail.com
+            <a href="mailto:virginia.alvarez82@gmail.com? &body= Buenas  Virginia,">virginia.alvarez82@gmail.com
               {/* <i className="fa-solid fa-at"></i>  */}
               {" "}
             </a>
@@ -37,9 +37,10 @@ function Contact() {
             </p>
         </section>
         <section className="formSection">
-     
-        <form action="https://formspree.io/f/mleqdvqz" method="POST" className="form" > 
-        {/* <form action="https://formsubmit.co/virginia.alvarez82@gmail.com" method="POST" className="form" >  */}
+{/*      
+        <form action="https://formspree.io/f/mleqdvqz" method="POST" className="form" >  */}
+
+        <form action="https://formsubmit.co/virginia.alvarez82@gmail.com" method="POST" className="form" > 
         
           {/* <label htmlFor="name" >Nombre</label> */}
           <input className="input" type="text" name="name" placeholder="Nombre"/>
@@ -52,8 +53,8 @@ function Contact() {
 
           <input className="btnSubmit" type="submit" value={"enviar"} />
 
-          {/* <input type="hidden" name="_next" value="http://localhost:5173/portfolio/#/contactme" /> */}
-          {/* <input type="hidden" name="_captcha" value="false" /> */}
+          <input type="hidden" name="_next" value="https://virchaca.github.io/portfolio/#/contactme"/>
+          <input type="hidden" name="_captcha" value="false" />
         </form>
       </section>
       </div>
