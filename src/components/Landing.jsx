@@ -1,5 +1,5 @@
 // import React from 'react'
-import roundProfile from "../images/roundProfile.png"
+import roundProfile from "../images/profileBN1.png"
 function Landing() {
   return (
     <> 
@@ -12,7 +12,8 @@ function Landing() {
         <p className="junior">  〈 Junior Front-end Developer / 〉 </p>
         {/* <p>～ Welcome to my portfolio!! ～</p> */}
         </span>
-        <span><img src={roundProfile} alt="profilePicture" /></span>
+        
+        <span ><img className="imgProfile" src={roundProfile} alt="profilePicture" /></span>
         
         
     </div>

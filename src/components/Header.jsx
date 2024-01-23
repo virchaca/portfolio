@@ -38,7 +38,7 @@ function Header() {
         </span>
         <span className="linksClass">
           <Link to="/projects" className="no-underline">
-            MYPROJECTS
+            MY PROJECTS
           </Link>
         </span>
 
