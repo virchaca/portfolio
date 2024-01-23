@@ -1,5 +1,5 @@
 // import React from 'react'
-import pdfImg from "../images/pdfImg.png";
+import pdfImg from "../images/pdfImg2.png";
 function Contact() {
   return (
     <>
@@ -32,8 +32,8 @@ function Contact() {
               <i className="fas fa-mobile-alt"></i> PHONE NUMBER
             </a>
           </p>
-          <p className="contactDetails">CV
-              <a href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" download="Virginia_AlvarezP_cv.pdf"> <img src={pdfImg} width="20px" alt="cv" /></a>
+          <p className="contactDetails">CV <i className="fa-solid fa-arrow-right"></i>
+              <a className="cv" href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" download="Virginia_AlvarezP_cv.pdf"> <img src={pdfImg} width="20px" alt="cv" /></a>
             </p>
         </section>
         <section className="formSection">
@@ -43,15 +43,15 @@ function Contact() {
         <form action="https://formsubmit.co/virginia.alvarez82@gmail.com" method="POST" className="form" > 
         
           {/* <label htmlFor="name" >Nombre</label> */}
-          <input className="input" type="text" name="name" placeholder="Nombre"/>
+          <input className="input" type="text" name="name" placeholder="Name"/>
 
           {/* <label htmlFor="email">Correo electrónico</label> */}
           <input className="input"  type="email" name="email" placeholder="Email"/>
 
           {/* <label htmlFor="message">Mensaje</label> */}
-          <textarea className="textarea" name="message" id="" cols="15" rows="5" placeholder="Escribe aquí tu mensaje"></textarea>
+          <textarea className="textarea" name="message" id="" cols="15" rows="5" placeholder="Write your message here"></textarea>
 
-          <input className="btnSubmit" type="submit" value={"enviar"} />
+          <input className="btnSubmit" type="submit" value={"send"} />
 
           <input type="hidden" name="_next" value="https://virchaca.github.io/portfolio/#/contactme"/>
           <input type="hidden" name="_captcha" value="false" />

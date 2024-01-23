@@ -38,7 +38,7 @@ function Aboutme() {
           <div style={textStyle}>
             <div className="mycv">
               <p>
-                My CV
+                My CV <i className="fa-solid fa-arrow-right"></i>
                 <a
                   className="cv"
                   href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link"
