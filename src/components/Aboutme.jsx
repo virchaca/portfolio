@@ -62,21 +62,21 @@ function Aboutme() {
               <br></br>
               <p>
                 After years in the Science and Quality Control sector, I've
-                chosen to reinvent myself in the world of technology. I am
-                thrilled about this exciting new challenge{" "}
+                chosen to start my path in the world of technology, <strong>combining</strong> my scientific and my programming skills. Now,
+                looking for{" "}
                 <strong>
-                  — FINDING MY PLACE IN THE WORLD OF WEB PROGRAMMING —{" "}
+                  MY PLACE IN THE WORLD OF WEB PROGRAMMING {" "}
                 </strong>{" "}
-                . Web development has become a{" "}
-                <strong> newfound passion </strong> for me, this fusion of{" "}
-                <strong>creativity and logic </strong> in coding truly
+                . Web development has become {" "}
+                <strong> my new passion</strong>, this fusion of{" "}
+                <strong>creativity and code logic </strong> 
                 fascinates me.
               </p>
               <br></br>
               <p>
                 I believe in the <strong>power of constant evolution,</strong>{" "}
                 and am committed to enhancing my skills to deliver high-quality
-                results. Stay tuned for exciting updates on these projects.
+                results.
               </p>
               <br></br>
               <p>

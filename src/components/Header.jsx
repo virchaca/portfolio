@@ -26,26 +26,18 @@ function Header() {
         <i className="fa-solid fa-left-long"></i> pagina principal
       </Link> */}
       <div className="sectionsMenu">
-        <span className="linksClass">
-          <Link to="/" className="no-underline">
-            HI THERE
-          </Link>
+        <span className="linksClass hithere">
+          <Link to="/" className="no-underline">HI THERE</Link>
         </span>
         <span className="linksClass">
-          <Link to="/aboutme" className="no-underline">
-            ABOUT ME
-          </Link>
+          <Link to="/aboutme" className="no-underline">ABOUT ME</Link>
         </span>
         <span className="linksClass">
-          <Link to="/projects" className="no-underline">
-            MY PROJECTS
-          </Link>
+          <Link to="/projects" className="no-underline">MY PROJECTS</Link>
         </span>
 
-        <span className="linksClass">
-          <Link to="/contactme" className="no-underline">
-            CONTACT ME
-          </Link>
+        <span className="linksClass contactme">
+          <Link to="/contactme" className="no-underline">CONTACT ME</Link>
         </span>
       </div>
     </div>
