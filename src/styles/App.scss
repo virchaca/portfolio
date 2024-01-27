@@ -146,6 +146,7 @@ body {
           .cv {
             text-decoration: none;
             padding: 5px;
+            color: black;
           }
         }
         .firstText {
@@ -333,6 +334,10 @@ body {
               color: black;
               color: white;
               // font-size: small;
+             
+            }
+            .arrow{
+              padding-inline: 5px;
             }
           }
         }

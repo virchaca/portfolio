@@ -26,6 +26,8 @@ import slack from "../images/iconsTech/slack.png";
 import rapidapi from "../images/iconsTech/rapidapi3.png";
 import express from "../images/iconsTech/express.png";
 
+import cv from "../images/VirginiaAlvarezPerez_cv.pdf";
+
 function Aboutme() {
   const textStyle = {
     color: "white",
@@ -38,7 +40,7 @@ function Aboutme() {
           <div style={textStyle}>
             <div className="mycv">
               <p>
-                My CV <i className="fa-solid fa-arrow-right"></i>
+                See CV <i className="fa-solid fa-arrow-right"></i>
                 <a
                   className="cv"
                   href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link"
@@ -49,6 +51,10 @@ function Aboutme() {
                   {" "}
                   <img src={pdfImg} width="20px" alt="cv" />
                 </a>
+                <a className="cv" href={cv} title="cv Virginia AlvarezP" download="Virginia_AlvarezP_cv.pdf">
+                  or download
+                </a>
+                <i className="fas fa-solid fa-file-arrow-down"> </i>
               </p>
             </div>
             <div className="firstText">
@@ -62,14 +68,12 @@ function Aboutme() {
               <br></br>
               <p>
                 After years in the Science and Quality Control sector, I've
-                chosen to start my path in the world of technology, <strong>combining</strong> my scientific and my programming skills. Now,
-                looking for{" "}
-                <strong>
-                  MY PLACE IN THE WORLD OF WEB PROGRAMMING {" "}
-                </strong>{" "}
-                . Web development has become {" "}
-                <strong> my new passion</strong>, this fusion of{" "}
-                <strong>creativity and code logic </strong> 
+                chosen to start my path in the world of technology,{" "}
+                <strong>combining</strong> my scientific and my programming
+                skills. Now, looking for{" "}
+                <strong>MY PLACE IN THE WORLD OF WEB PROGRAMMING </strong> . Web
+                development has become <strong> my new passion</strong>, this
+                fusion of <strong>creativity and code logic </strong>
                 fascinates me.
               </p>
               <br></br>
@@ -97,18 +101,23 @@ function Aboutme() {
               <p className="iconsTech">
                 <img src={js} width="40px" alt="js" title="Javascript" />
                 <img src={react} width="40px" alt="js" title="React" />
-                
+
                 <img src={html5} width="40px" alt="js" title="Html5" />
                 <img src={sass} width="40px" alt="js" title="Sass" />
                 <img src={css3} width="40px" alt="js" title="Css3" />
                 <img src={github} width="40px" alt="js" title="Github" />
                 <img src={vite} width="40px" alt="js" title="Vite" />
-                <img src={vsc} width="40px" alt="js" title="Vscode" />          
-                
-                <img src={git} width="40px" alt="js" title="Git Control Versiones"/>
+                <img src={vsc} width="40px" alt="js" title="Vscode" />
+
+                <img
+                  src={git}
+                  width="40px"
+                  alt="js"
+                  title="Git Control Versiones"
+                />
                 <img src={markdown} width="40px" alt="js" title="Markdown" />
                 <img src={npm} width="40px" alt="js" title="Npm" />
-                
+
                 <img src={node} width="40px" alt="js" title="NodeJs" />
                 <img src={mysql} width="40px" alt="js" title="MySql" />
                 <img src={swagger} width="40px" alt="js" title="Swagger" />
@@ -116,12 +125,17 @@ function Aboutme() {
                 <img src={ejs} width="40px" alt="js" title="Ejs" />
                 <img src={postman} width="40px" alt="js" title="Postman" />
                 <img src={rapidapi} width="40px" alt="js" title="RapidApi" />
-                <img src={express} width="40px" alt="js" title="ExpressJs" />   
+                <img src={express} width="40px" alt="js" title="ExpressJs" />
 
-                <img src={prestashop} width="40px" alt="js" title="Prestashop" />
-                
+                <img
+                  src={prestashop}
+                  width="40px"
+                  alt="js"
+                  title="Prestashop"
+                />
+
                 <img src={slack} width="40px" alt="js" title="Slack" />
-             
+
                 <img src={canva} width="40px" alt="js" title="Canva" />
               </p>
             </div>

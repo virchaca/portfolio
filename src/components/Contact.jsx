@@ -1,5 +1,6 @@
 // import React from 'react'
 import pdfImg from "../images/pdfImg2.png";
+import cv from "../images/VirginiaAlvarezPerez_cv.pdf"
 function Contact() {
   return (
     <>
@@ -32,9 +33,17 @@ function Contact() {
               <i className="fas fa-mobile-alt"></i> PHONE NUMBER
             </a>
           </p>
-          <p className="contactDetails">CV <i className="fa-solid fa-arrow-right"></i>
-              <a className="cv" href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" download="Virginia_AlvarezP_cv.pdf"> <img src={pdfImg} width="20px" alt="cv" /></a>
+          <p className="contactDetails">See CV 
+              <a className="cv" href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" download="Virginia_AlvarezP_cv.pdf"> 
+              <img src={pdfImg} width="20px" alt="cv" /></a><i className="fa-solid fa-arrow-right arrow"></i>  
+              <a href={cv} title="cv Virginia AlvarezP" download="Virginia_AlvarezP_cv.pdf">     
+           download 
+            </a>
             </p>
+
+            <p className="contactDetails">
+            
+          </p>
         </section>
         <section className="formSection">
 {/*      
