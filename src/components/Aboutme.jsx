@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // import React from 'react';
 // import { Link } from "react-router-dom";
-import pdfImg from "../images/pdfImg.png";
+// import pdfImg from "../images/pdfImg.png";
 import js from "../images/iconsTech/js.png";
 import css3 from "../images/iconsTech/css3.png";
 import github from "../images/iconsTech/github.png";
@@ -40,16 +40,14 @@ function Aboutme() {
           <div style={textStyle}>
             <div className="mycv">
               <p>
-                See CV <i className="fa-solid fa-arrow-right"></i>
+                CV <i className="fa-solid fa-arrow-right"></i>
                 <a
                   className="cv"
                   href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   download="Virginia_AlvarezP_cv.pdf"
-                >
-                  {" "}
-                  <img src={pdfImg} width="20px" alt="cv" />
+                >Read <i className="fa-solid fa-cloud-arrow-up" ></i>                  
                 </a>
                 <a className="cv" href={cv} title="cv Virginia AlvarezP" download="Virginia_AlvarezP_cv.pdf">
                   or download

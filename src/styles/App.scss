@@ -100,9 +100,7 @@ body {
           width: 250px;
           @media all and (max-width: 768px) {
             width: 200px;
-            
           }
-          
         }
       }
       .landingSection {
@@ -124,7 +122,7 @@ body {
 
       .aboutme {
         // border: 2px solid black;
-        margin: auto;        
+        margin: auto;
         // background-color: rgba(255, 255, 255, 0.7);
         background-color: rgb(15, 139, 122, 0.9);
         width: 80%;
@@ -142,7 +140,7 @@ body {
         .mycv {
           color: black;
           margin-inline: 2rem;
-          
+
           .cv {
             text-decoration: none;
             padding: 5px;
@@ -165,7 +163,7 @@ body {
             padding: 0px;
           }
         }
-     
+
         .thirdText {
           // border: 1px solid black;
           // background-color: rgb(25, 196, 196);
@@ -176,8 +174,6 @@ body {
           margin-inline: 2rem;
           @media all and (max-width: 768px) {
             margin-inline: 0.6rem;
-            
-
           }
           .iconsTech {
             display: flex;
@@ -189,8 +185,6 @@ body {
             @media all and (max-width: 768px) {
               padding-inline: 0rem;
               margin: 0rem;
-              
-              
             }
           }
         }
@@ -292,7 +286,6 @@ body {
         padding: 10px;
         // background-color: rgba(255, 255, 255, 0.7);
         display: flex;
-        
 
         @media all and (max-width: 768px) {
           font-size: 12px;
@@ -313,7 +306,7 @@ body {
           justify-content: space-around;
           // border: 1px solid black;
           // background-color: black;
-         
+
           @media all and (max-width: 768px) {
             margin: 1rem;
             gap: 5px;
@@ -334,9 +327,8 @@ body {
               color: black;
               color: white;
               // font-size: small;
-             
             }
-            .arrow{
+            .arrow {
               padding-inline: 5px;
             }
           }
@@ -366,11 +358,14 @@ body {
               border-radius: 15px;
               padding: 5px;
               font-size: 10px;
-              background-color: rgba(255, 255, 255, 0.7);
+              // background-color: rgba(255, 255, 255, 0.7);
+              background-color: black;
               &:hover {
-                background-color: rgb(151, 151, 151);
+                // background-color: rgb(151, 151, 151);
+                background-color: rgba(255, 255, 255, 0.5);
                 &::placeholder {
-                  color: white;
+                  // color: white;
+                  color: black;
                 }
               }
               @media all and (min-width: 768px) {
@@ -385,12 +380,16 @@ body {
               border-radius: 15px;
               padding: 5px;
               font-size: 10px;
-              background-color: rgba(255, 255, 255, 0.7);
-              border: 1px solid black;
+              // background-color: rgba(255, 255, 255, 0.7);
+              background-color: black;
+              border: 1px solid gray;
               &:hover {
-                background-color: rgb(151, 151, 151);
+                // background-color: rgb(151, 151, 151);
+                background-color: rgba(255, 255, 255, 0.5);
+                border: 1px solid black;
                 &::placeholder {
-                  color: white;
+                  // color: white;
+                  color: black;
                 }
               }
               @media all and (min-width: 768px) {
@@ -408,7 +407,7 @@ body {
             padding: 5px;
             font-size: 10px;
             font-family: lemon;
-            
+
             &:hover {
               background-color: rgb(36, 35, 35);
             }

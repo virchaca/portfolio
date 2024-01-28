@@ -74,7 +74,7 @@ function Projects() {
             </a>
             </section>
             <section className="projectText">
-            <h4>OWEN WILSON SCENES</h4>
+            <h4>MEET UP VANS - API</h4>
               <p >Creation of server & vans/users  DB</p>
               <p> Node JS - Express JS - Swagger </p>
               <p>Mysql - authentication - JWT - BCRYPT</p>
