@@ -69,9 +69,9 @@ function Aboutme() {
                 chosen to start my path in the world of technology,{" "}
                 <strong>combining</strong> my scientific and my programming
                 skills. Now, looking for{" "}
-                <strong>MY PLACE IN THE WORLD OF WEB PROGRAMMING </strong> . Web
+                <strong>my place in the world of web programming</strong>. Web
                 development has become <strong> my new passion</strong>, this
-                fusion of <strong>creativity and code logic </strong>
+                fusion of <strong>creativity and logic </strong>
                 fascinates me.
               </p>
               <br></br>
@@ -80,10 +80,10 @@ function Aboutme() {
                 and am committed to enhancing my skills to deliver high-quality
                 results.
               </p>
-              <br></br>
+              {/* <br></br>
               <p>
                 <strong>Thank you for your continued support!</strong>
-              </p>
+              </p> */}
             </div>
 
             {/* <div className="secondText">

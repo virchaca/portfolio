@@ -94,6 +94,7 @@ body {
         .profileText {
           padding: 10px;
           background-color: rgba(100, 22, 86, 0.6);
+          border-bottom: 2px solid rgb(45, 88, 78);
         }
 
         .imgProfile {
@@ -140,11 +141,16 @@ body {
         .mycv {
           color: black;
           margin-inline: 2rem;
+          @media all and (max-width: 768px) {
+              text-align: center;
+          }
+        
 
           .cv {
             text-decoration: none;
             padding: 5px;
             color: black;
+            
           }
         }
         .firstText {
@@ -360,6 +366,7 @@ body {
               font-size: 10px;
               // background-color: rgba(255, 255, 255, 0.7);
               background-color: black;
+              color: white;
               &:hover {
                 // background-color: rgb(151, 151, 151);
                 background-color: rgba(255, 255, 255, 0.5);
@@ -383,6 +390,7 @@ body {
               // background-color: rgba(255, 255, 255, 0.7);
               background-color: black;
               border: 1px solid gray;
+              color: white;
               &:hover {
                 // background-color: rgb(151, 151, 151);
                 background-color: rgba(255, 255, 255, 0.5);
