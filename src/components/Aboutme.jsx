@@ -43,7 +43,7 @@ function Aboutme() {
                 CV <i className="fa-solid fa-arrow-right"></i>
                 <a
                   className="cv"
-                  href="https://drive.google.com/file/d/1epNTCUDMVFhkov_uaZUdiuFe59Hm9Mh1/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1QZ0mA52Xg8Of-LHQ6i7vID_-836f_nER/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   download="Virginia_AlvarezP_cv.pdf"
