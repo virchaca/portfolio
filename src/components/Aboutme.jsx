@@ -26,7 +26,7 @@ import slack from "../images/iconsTech/slack.png";
 import rapidapi from "../images/iconsTech/rapidapi3.png";
 import express from "../images/iconsTech/express.png";
 
-import cv from "../images/VirginiaAlvarezPerez_cv.pdf";
+import cv from "../images/cv_Virginia AlvarezP_JuniorDeveloper.pdf";
 
 function Aboutme() {
   const textStyle = {
@@ -43,13 +43,13 @@ function Aboutme() {
                 CV <i className="fa-solid fa-arrow-right"></i>
                 <a
                   className="cv"
-                  href="https://drive.google.com/file/d/1QZ0mA52Xg8Of-LHQ6i7vID_-836f_nER/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ZW9DyrGBbarPAVIimruHNroOMx0jZ1r3/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   download="Virginia_AlvarezP_cv.pdf"
                 >Read <i className="fa-solid fa-cloud-arrow-up" ></i>                  
                 </a>
-                <a className="cv" href={cv} title="cv Virginia AlvarezP" download="Virginia_AlvarezP_cv.pdf">
+                <a className="cv" href={cv} title="cv Virginia AlvarezP" download="cv_Virginia AlvarezP_JuniorDeveloper.pdf">
                   or download
                 </a>
                 <i className="fas fa-solid fa-file-arrow-down"> </i>
