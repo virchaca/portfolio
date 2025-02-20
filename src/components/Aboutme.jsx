@@ -68,11 +68,11 @@ function Aboutme() {
               I also have a degree in <strong>Biology</strong>. After several years working in this field both in <strong>London</strong> and Spain, I decided to make a change and train in  <strong>web programming</strong> because it is something I was really excited to learn,  
                 combining my scientific and my programming skills. 
               </p><br />
-                <p>Technologies:</p><br />
+                <p>EXPERIENCE IN:</p><br />
               
-                <p><strong>Backend: </strong>Mainly with Laravel (PHP) and, in some projects, with Node.js and Express.js. I have designed relational databases with MySQL, developed admin panels for database management (CRUD), user roles, and multilingual content.</p><br />
-                <p><strong>Frontend: </strong>I have worked with Blade views in Laravel, JavaScript, and React, depending on the project.</p><br />
-                <p>Experience in deployments and implementing changes in production and pre-production environments using tools such as FileZilla, Render, and FreeDB for file transfer and management.</p>
+                <p><strong>BACK END: </strong>Mainly with <strong>Laravel (PHP)</strong> and, in some projects, with Node.js and Express.js. I have designed relational <strong>databases with MySQL</strong> , developed admin panels for database management (CRUD), user roles, and multilingual content.</p><br />
+                <p><strong>FRONT END: </strong>I have worked with <strong>Laravel's Blade templating engine</strong>, <strong>JavaScript</strong>, and <strong>React</strong>, depending on the project.</p><br />
+                <p>Deployments and implementing <strong>changes in production and pre-production environments </strong>using tools such as FileZilla, Render, and FreeDB for file transfer and management.</p>
               
               <br></br>
               <p>
