@@ -1,13 +1,14 @@
 // import React from 'react'
 import "../styles/App.scss";
 import bosque1 from "../images/fotos proyectos/bosques.png";
-import rocket1 from "../images/fotos proyectos/rocket1.png";
+// import rocket1 from "../images/fotos proyectos/rocket1.png";
 import vans1 from "../images/fotos proyectos/vans4.png"
 import owen1 from "../images/fotos proyectos/owen.png";
 import addams1 from "../images/fotos proyectos/addams.png";
-import piedra1 from "../images/fotos proyectos/piedra.png";
+// import piedra1 from "../images/fotos proyectos/piedra.png";
 import hangman1 from "../images/fotos proyectos/hangman.png";
 import buscadorSeries1 from "../images/fotos proyectos/buscadorSeries2.png";
+import tiendas1 from "../images/fotos proyectos/tiendas-sostenibles2.png";
 
 // import { Link } from "react-router-dom";
 
@@ -42,8 +43,30 @@ function Projects() {
             </section>
           </div>
 
+          {/* TIENDAS SOSTENIBLES */}
+          <div className="oneProject">
+          <section className="projectImg">
+           
+            <a
+              href="https://github.com/virchaca/tiendas-sostenibles"
+              target="blank"
+            >
+              <img src={tiendas1} alt="tiendas-sostenibles" />
+            </a>
+            </section>
+            <section className="projectText">
+            <h4>TIENDAS SOSTENIBLES</h4>
+              <p>Explore the map or search for the</p>
+              <p>perfect shop, in just one click!</p>
+              <p> PHP - MySQL DB - JS - CSS</p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/tiendas-sostenibles" target="blank" alt="tiendassostenibles"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+            </section>            
+          </div>
+
+
+
           {/* ROCKET PROYECT */}
-             <div className="oneProject">
+             {/* <div className="oneProject">
           <section className="projectImg">
            
             <a 
@@ -60,28 +83,9 @@ function Projects() {
               <p>EXPRESS - MySQL - FreeDB - REACT - EJS</p>
               <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/project-promo-u-module-4-team-5" target="blank" alt="rocketproject"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
-          </div>
+          </div> */}
 
-          {/* API VANS */}
-          <div className="oneProject">
-          <section className="projectImg">
-           
-            <a
-              href="https://github.com/virchaca/modulo-4-evaluacion-final"
-              target="blank"
-            >
-              <img src={vans1} alt="" />
-            </a>
-            </section>
-            <section className="projectText">
-            <h4>MEET UP VANS - API</h4>
-              <p >Creation of server & vans/users  DB</p>
-              <p> Node JS - Express JS - Swagger </p>
-              <p>Mysql - authentication - JWT - BCRYPT</p>
-              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/modulo-4-evaluacion-final" target="blank" alt="apivans"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
-            </section>            
-          </div>
-
+      
           {/* OWEN WILSON */}
           <div className="oneProject">
           <section className="projectImg">
@@ -165,26 +169,27 @@ function Projects() {
             </section>
           </div>
 
-          {/* PIEDRA,PAPEL,TIJERA */}
-          <div className="oneProject">          
+              {/* API VANS */}
+              <div className="oneProject">
           <section className="projectImg">
-          
+           
             <a
-              href="https://virchaca.github.io/piedra-papel-o-tijera---virchaca/"
+              href="https://github.com/virchaca/modulo-4-evaluacion-final"
               target="blank"
             >
-              <img src={piedra1} alt="" />
+              <img src={vans1} alt="" />
             </a>
             </section>
             <section className="projectText">
-            <h4>PIEDRA PAPEL TIJERA</h4>
-              <p >Play against computer!</p>
-              <p>JAVASCRIPT - HTML - CSS</p>
-              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/piedra-papel-o-tijera---virchaca" target="blank" alt="piedrapapeltijera"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
-            </section>
+            <h4>MEET UP VANS - API</h4>
+              <p >Creation of server & vans/users  DB</p>
+              <p> Node JS - Express JS - Swagger </p>
+              <p>Mysql - authentication - JWT - BCRYPT</p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/modulo-4-evaluacion-final" target="blank" alt="apivans"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+            </section>            
           </div>
 
-
+       
           {/* <div className="oneProject">
           <section className="projectImg">
            
