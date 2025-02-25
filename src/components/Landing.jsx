@@ -22,11 +22,11 @@ function Landing() {
           </span>
         </div>
         <div className="landingSection">
-          <p>Web programmer 🖥, biologist 🍃 and quality auditor I am looking to
+          <p><strong>Web programmer</strong> 🖥, biologist 🍃 and quality auditor I am looking to
           develop my programming skills through a job where I can find a place
           🗺️ to grow and fly 🚀 in the world of technology. </p>
           <br />
-          <p>My professional experience in Spain and England has allowed me to allowed me to
+          <p>My professional experience in Spain and England has allowed me to 
           develop key skills such as <strong>error detection</strong>  and <strong>effective
           management of multiple tasks</strong>. </p>
          <br />
