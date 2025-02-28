@@ -18,9 +18,9 @@ function Header() {
           </a>{" "}
           @VirWebCreations
         </p> */}
-        <h1 className="myName">
+        {/* <h1 className="myName">
          Welcome to my portfolio  <i className="fa-solid fa-earth-americas"></i> 
-        </h1>
+        </h1> */}
       </div>
       {/* <Link to="/" className="backToMain">
         <i className="fa-solid fa-left-long"></i> pagina principal
@@ -40,6 +40,7 @@ function Header() {
           <Link to="/contactme" className="no-underline">CONTACT ME</Link>
         </span>
       </div>
+      
     </div>
   );
 }
