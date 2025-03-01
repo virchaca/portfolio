@@ -10,12 +10,12 @@
 body {
   background-image: url(/src/images/plantas2.avif);
   background-size: auto;
+  background-blend-mode: overlay; 
+  background-color: rgba(255, 230, 200, 0.075); /* Ajusta la transparencia */
+  
+
   .header {
-    // .mybrand {
-    //   background-color: rgba(255, 255, 255, 0.5);
-    //   width: fit-content;
-    //   padding: 3px;
-    // }
+
     .myName {
       color: white;
       text-align: center;

@@ -1,14 +1,14 @@
 // import React from 'react'
 import "../styles/App.scss";
 import bosque1 from "../images/fotos proyectos/bosques.png";
-// import rocket1 from "../images/fotos proyectos/rocket1.png";
 import vans1 from "../images/fotos proyectos/vans4.png";
 import owen1 from "../images/fotos proyectos/owen.png";
-import addams1 from "../images/fotos proyectos/addams.png";
-// import piedra1 from "../images/fotos proyectos/piedra.png";
 import hangman1 from "../images/fotos proyectos/hangman.png";
 import buscadorSeries1 from "../images/fotos proyectos/series2.png";
 import tiendas1 from "../images/fotos proyectos/tiendas-sostenibles2.png";
+// import rocket1 from "../images/fotos proyectos/rocket1.png";
+// import addams1 from "../images/fotos proyectos/addams.png";
+// import piedra1 from "../images/fotos proyectos/piedra.png";
 
 // import { Link } from "react-router-dom";
 
@@ -78,53 +78,6 @@ function Projects() {
               </section>
             </div>
 
-            {/* ROCKET PROYECT */}
-            {/* <div className="oneProject">
-          <section className="projectImg">
-           
-            <a 
-              href="https://rocket-project.onrender.com/"
-              target="blank">
-              <img src={rocket1} alt="" />
-            </a>
-          </section>
-          <section className="projectText">
-           <h4>ROCKET PROJECT</h4>
-              <p >
-              Make your own project cards
-              </p>
-              <p>EXPRESS - MySQL - FreeDB - REACT - EJS</p>
-              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/project-promo-u-module-4-team-5" target="blank" alt="rocketproject"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
-            </section>
-          </div> */}
-
-            {/* OWEN WILSON */}
-            <div className="oneProject">
-              <section className="projectImg">
-                <a
-                  href="https://virchaca.github.io/OwenWilsons-WoWs-MIII-virchaca/"
-                  target="blank"
-                >
-                  <img src={owen1} alt="" />
-                </a>
-              </section>
-              <section className="projectText">
-                <h4>OWEN WILSON SCENES</h4>
-                <p>Filter and show details of scenes</p>
-                <p>REACT - SCSS - JavaScript</p>
-                <p className="codeClass">
-                  <a
-                    className="codeLink"
-                    href="https://github.com/virchaca/OwenWilsons-WoWs-MIII-virchaca"
-                    target="blank"
-                    alt="owenwilson"
-                  >
-                    <i className="icons fa-brands fa-github-alt"></i> Code
-                  </a>
-                </p>
-              </section>
-            </div>
-
             {/* HANGMAN GAME */}
             <div className="oneProject">
               <section className="projectImg">
@@ -151,6 +104,7 @@ function Projects() {
                 </p>
               </section>
             </div>
+
             {/* BUSCADOR SERIES */}
             <div className="oneProject">
               <section className="projectImg">
@@ -172,33 +126,6 @@ function Projects() {
                     href="https://github.com/virchaca/buscador-de-series-MII"
                     target="blank"
                     alt="buscadorseries"
-                  >
-                    <i className="icons fa-brands fa-github-alt"></i> Code
-                  </a>
-                </p>
-              </section>
-            </div>
-
-            {/* ADDAMS CARDS */}
-            <div className="oneProject">
-              <section className="projectImg">
-                <a
-                  href="https://virchaca.github.io/Addams-Family-profile-cards-MII-/"
-                  target="blank"
-                >
-                  <img src={addams1} alt="" />
-                </a>
-              </section>
-              <section className="projectText">
-                <h4>ADDAMS PROFILE CARDS</h4>
-                <p>Make your own profile card</p>
-                <p>JS - HTML - SCSS - LocalStorage</p>
-                <p className="codeClass">
-                  <a
-                    className="codeLink"
-                    href="https://github.com/virchaca/Addams-Family-profile-cards-MII-"
-                    target="blank"
-                    alt="addamsfamily"
                   >
                     <i className="icons fa-brands fa-github-alt"></i> Code
                   </a>
@@ -234,6 +161,33 @@ function Projects() {
               </section>
             </div>
 
+            {/* OWEN WILSON */}
+            <div className="oneProject">
+              <section className="projectImg">
+                <a
+                  href="https://virchaca.github.io/OwenWilsons-WoWs-MIII-virchaca/"
+                  target="blank"
+                >
+                  <img src={owen1} alt="" />
+                </a>
+              </section>
+              <section className="projectText">
+                <h4>OWEN WILSON SCENES</h4>
+                <p>Filter and show details of scenes</p>
+                <p>REACT - SCSS - JavaScript</p>
+                <p className="codeClass">
+                  <a
+                    className="codeLink"
+                    href="https://github.com/virchaca/OwenWilsons-WoWs-MIII-virchaca"
+                    target="blank"
+                    alt="owenwilson"
+                  >
+                    <i className="icons fa-brands fa-github-alt"></i> Code
+                  </a>
+                </p>
+              </section>
+            </div>
+
             {/* <div className="oneProject">
           <section className="projectImg">
            
@@ -248,6 +202,53 @@ function Projects() {
               <p >pequeña explicacion proyecto</p>
               <p>tecnologias</p>
               <p><a className="codeLink" href="" target="blank" alt=""><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
+            </section>
+          </div> */}
+
+            {/* ADDAMS CARDS */}
+            {/* <div className="oneProject">
+              <section className="projectImg">
+                <a
+                  href="https://virchaca.github.io/Addams-Family-profile-cards-MII-/"
+                  target="blank"
+                >
+                  <img src={addams1} alt="" />
+                </a>
+              </section>
+              <section className="projectText">
+                <h4>ADDAMS PROFILE CARDS</h4>
+                <p>Make your own profile card</p>
+                <p>JS - HTML - SCSS - LocalStorage</p>
+                <p className="codeClass">
+                  <a
+                    className="codeLink"
+                    href="https://github.com/virchaca/Addams-Family-profile-cards-MII-"
+                    target="blank"
+                    alt="addamsfamily"
+                  >
+                    <i className="icons fa-brands fa-github-alt"></i> Code
+                  </a>
+                </p>
+              </section>
+            </div> */}
+
+            {/* ROCKET PROYECT */}
+            {/* <div className="oneProject">
+          <section className="projectImg">
+           
+            <a 
+              href="https://rocket-project.onrender.com/"
+              target="blank">
+              <img src={rocket1} alt="" />
+            </a>
+          </section>
+          <section className="projectText">
+           <h4>ROCKET PROJECT</h4>
+              <p >
+              Make your own project cards
+              </p>
+              <p>EXPRESS - MySQL - FreeDB - REACT - EJS</p>
+              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/project-promo-u-module-4-team-5" target="blank" alt="rocketproject"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
             </section>
           </div> */}
           </section>
