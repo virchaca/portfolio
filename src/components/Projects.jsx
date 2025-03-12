@@ -10,6 +10,7 @@ import tiendasMp4 from "../images/tiendas-sostenibles.mp4";
 // import rocket1 from "../images/fotos proyectos/rocket1.png";
 // import addams1 from "../images/fotos proyectos/addams.png";
 // import piedra1 from "../images/fotos proyectos/piedra.png";
+import VisitsCounter from "./VisitsCounter";
 
 // import { Link } from "react-router-dom";
 
@@ -255,6 +256,9 @@ function Projects() {
           </section>
         </div>
       </section>
+
+      <VisitsCounter />
+
     </>
   );
 }
