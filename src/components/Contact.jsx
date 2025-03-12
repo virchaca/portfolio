@@ -2,6 +2,7 @@
 // import pdfImg from "../images/pdfImg2.png";
 
 import cv from "../images/cv_Virginia AlvarezP_JuniorDeveloper.pdf";
+// import tiendasMp4 from "../images/tiendas-sostenibles.mp4";
 function Contact() {
   return (
     <>
@@ -38,7 +39,7 @@ function Contact() {
               CV
               <a
                 className="cv"
-                  href="https://drive.google.com/file/d/1ZW9DyrGBbarPAVIimruHNroOMx0jZ1r3/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1ZW9DyrGBbarPAVIimruHNroOMx0jZ1r3/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Virginia_AlvarezP_cv.pdf"
@@ -105,6 +106,14 @@ function Contact() {
           </section>
         </div>
       </section>
+      {/* <section>
+        <iframe
+          src={tiendasMp4}
+          width="640"
+          height="360"
+          allow="autoplay"
+        ></iframe>
+      </section> */}
     </>
   );
 }
