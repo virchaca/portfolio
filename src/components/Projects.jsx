@@ -6,6 +6,7 @@ import owen1 from "../images/fotos proyectos/owen.png";
 import hangman1 from "../images/fotos proyectos/hangman.png";
 import buscadorSeries1 from "../images/fotos proyectos/series2.png";
 import tiendas1 from "../images/fotos proyectos/tiendas-sostenibles2.png";
+// import tiendasMp4 from "../images/tiendas-sostenibles.mp4";
 // import rocket1 from "../images/fotos proyectos/rocket1.png";
 // import addams1 from "../images/fotos proyectos/addams.png";
 // import piedra1 from "../images/fotos proyectos/piedra.png";
@@ -54,7 +55,7 @@ function Projects() {
             <div className="oneProject">
               <section className="projectImg">
                 <a
-                  href="https://github.com/virchaca/tiendas-sostenibles"
+                  href="https://drive.google.com/file/d/1Jl50N8fsWaJttiYLadvXLp1hH0AUuLe5/view?usp=sharing"
                   target="blank"
                 >
                   <img src={tiendas1} alt="tiendas-sostenibles" />
