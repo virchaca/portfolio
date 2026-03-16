@@ -1,15 +1,12 @@
 // import React from 'react'
 import "../styles/App.scss";
 import bosque1 from "../images/fotos proyectos/bosques.png";
-import vans1 from "../images/fotos proyectos/vans4.png";
+import library1 from "../images/fotos proyectos/library1.png";
 import owen1 from "../images/fotos proyectos/owen.png";
 import hangman1 from "../images/fotos proyectos/hangman.png";
 import buscadorSeries1 from "../images/fotos proyectos/series2.png";
 import tiendas1 from "../images/fotos proyectos/tiendas-sostenibles2.png";
 import tiendasMp4 from "../images/tiendas-sostenibles.mp4";
-// import rocket1 from "../images/fotos proyectos/rocket1.png";
-// import addams1 from "../images/fotos proyectos/addams.png";
-// import piedra1 from "../images/fotos proyectos/piedra.png";
 import VisitsCounter from "./VisitsCounter";
 
 // import { Link } from "react-router-dom";
@@ -23,8 +20,37 @@ function Projects() {
           <p>PROJECTS</p>          
         </section> */}
 
-          {/* BOSQUES ENTRE PUEBLOS */}
+        
+
+          {/* CORPORATE UI LIBRARY */}
           <section className="projectsSection">
+          <div className="oneProject">
+              <section className="projectImg">
+                <a
+                  href="https://mf-components.sigeca.net/"
+                  target="blank"
+                  alt="corporate library"
+                >
+                  <img src={library1} alt="corporate-ui-library" />
+                </a>
+              </section>
+              <section className="projectText">
+                <h4>CORPORATE UI LIBRARY</h4>
+                <p>Libreria UI corporativa documentada con NgDoc</p>
+                <p>ANGULAR- TypeScript - NgDoc - CSS - HTML</p>
+                <p className="codeClass">
+                  <a
+                    className="codeLink"
+                    href="https://github.com/virchaca/corporate-ui-library"
+                    target="blank"
+                    alt="bosquesentrepueblos"
+                  >
+                    <i className="icons fa-brands fa-github-alt"></i> Code
+                  </a>
+                </p>
+              </section>
+            </div>
+             {/* BOSQUES ENTRE PUEBLOS */}
             <div className="oneProject">
               <section className="projectImg">
                 <a
@@ -135,34 +161,6 @@ function Projects() {
               </section>
             </div>
 
-            {/* API VANS */}
-            <div className="oneProject">
-              <section className="projectImg">
-                <a
-                  href="https://github.com/virchaca/modulo-4-evaluacion-final"
-                  target="blank"
-                >
-                  <img src={vans1} alt="" />
-                </a>
-              </section>
-              <section className="projectText">
-                <h4>MEET UP VANS - API</h4>
-                <p>Creation of server & vans/users DB</p>
-                <p> Node JS - Express JS - Swagger </p>
-                <p>Mysql - authentication - JWT - BCRYPT</p>
-                <p className="codeClass">
-                  <a
-                    className="codeLink"
-                    href="https://github.com/virchaca/modulo-4-evaluacion-final"
-                    target="blank"
-                    alt="apivans"
-                  >
-                    <i className="icons fa-brands fa-github-alt"></i> Code
-                  </a>
-                </p>
-              </section>
-            </div>
-
             {/* OWEN WILSON */}
             <div className="oneProject">
               <section className="projectImg">
@@ -189,70 +187,6 @@ function Projects() {
                 </p>
               </section>
             </div>
-
-            {/* <div className="oneProject">
-          <section className="projectImg">
-           
-            <a 
-              href=""
-              target="blank">
-              <img src="" alt="" />
-            </a>
-          </section>
-          <section className="projectText">
-           <h4>......</h4>
-              <p >pequeña explicacion proyecto</p>
-              <p>tecnologias</p>
-              <p><a className="codeLink" href="" target="blank" alt=""><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
-            </section>
-          </div> */}
-
-            {/* ADDAMS CARDS */}
-            {/* <div className="oneProject">
-              <section className="projectImg">
-                <a
-                  href="https://virchaca.github.io/Addams-Family-profile-cards-MII-/"
-                  target="blank"
-                >
-                  <img src={addams1} alt="" />
-                </a>
-              </section>
-              <section className="projectText">
-                <h4>ADDAMS PROFILE CARDS</h4>
-                <p>Make your own profile card</p>
-                <p>JS - HTML - SCSS - LocalStorage</p>
-                <p className="codeClass">
-                  <a
-                    className="codeLink"
-                    href="https://github.com/virchaca/Addams-Family-profile-cards-MII-"
-                    target="blank"
-                    alt="addamsfamily"
-                  >
-                    <i className="icons fa-brands fa-github-alt"></i> Code
-                  </a>
-                </p>
-              </section>
-            </div> */}
-
-            {/* ROCKET PROYECT */}
-            {/* <div className="oneProject">
-          <section className="projectImg">
-           
-            <a 
-              href="https://rocket-project.onrender.com/"
-              target="blank">
-              <img src={rocket1} alt="" />
-            </a>
-          </section>
-          <section className="projectText">
-           <h4>ROCKET PROJECT</h4>
-              <p >
-              Make your own project cards
-              </p>
-              <p>EXPRESS - MySQL - FreeDB - REACT - EJS</p>
-              <p className="codeClass"><a className="codeLink" href="https://github.com/virchaca/project-promo-u-module-4-team-5" target="blank" alt="rocketproject"><i className="icons fa-brands fa-github-alt"></i>  Code</a></p>
-            </section>
-          </div> */}
           </section>
         </div>
       </section>

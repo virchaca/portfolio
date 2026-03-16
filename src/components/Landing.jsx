@@ -1,6 +1,6 @@
 // import React from 'react'
 import roundProfile from "../images/profileBN1.png";
-import cv from "../images/cv_Virginia AlvarezP_JuniorDeveloper.pdf";
+import cv from "../images/Virginia Alvarez - Frontend Developer.pdf";
 
 function Landing() {
   return (
@@ -46,7 +46,7 @@ function Landing() {
           
             <a
               className="cv"
-              href="https://drive.google.com/file/d/1ZW9DyrGBbarPAVIimruHNroOMx0jZ1r3/view?usp=drive_link"
+              href="https://drive.google.com/file/d/11OUNPYUtFTtdSp1Cwh2h0BYF9xfRYJOo/view"
               target="_blank"
               rel="noopener noreferrer"
               download="Virginia_AlvarezP_cv.pdf"
@@ -58,7 +58,7 @@ function Landing() {
             <a
               href={cv}
               title="cv Virginia AlvarezP"
-              download="cv_Virginia AlvarezP_JuniorDeveloper.pdf"
+              download="Virginia AlvarezP_Frontend Developer.pdf"
             >
               or download <i className="fa-solid fa-file-arrow-down"></i>
             </a>

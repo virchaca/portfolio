@@ -1,7 +1,7 @@
 // import React from 'react'
 // import pdfImg from "../images/pdfImg2.png";
 
-import cv from "../images/cv_Virginia AlvarezP_JuniorDeveloper.pdf";
+import cv from "../images/Virginia Alvarez - Frontend Developer.pdf";
 // import tiendasMp4 from "../images/tiendas-sostenibles.mp4";
 function Contact() {
   return (
@@ -39,7 +39,7 @@ function Contact() {
               CV
               <a
                 className="cv"
-                href="https://drive.google.com/file/d/1ZW9DyrGBbarPAVIimruHNroOMx0jZ1r3/view?usp=drive_link"
+                href="https://drive.google.com/file/d/11OUNPYUtFTtdSp1Cwh2h0BYF9xfRYJOo/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Virginia_AlvarezP_cv.pdf"
@@ -51,7 +51,7 @@ function Contact() {
               <a
                 href={cv}
                 title="cv Virginia AlvarezP"
-                download="cv_Virginia AlvarezP_JuniorDeveloper.pdf"
+                download="Virginia AlvarezP_Frontend Developer.pdf"
               >
                 or <i className="fa-solid fa-file-arrow-down"></i>
               </a>
